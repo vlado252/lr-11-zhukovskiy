@@ -3,7 +3,7 @@ import json
 from transport import Client, Vehicle, TransportCompany, Ship,Truck
 
 # Глобальные переменные для хранения данных
-company = TransportCompany("My transport company")
+company = TransportCompany("My transport company") 
 
 # Функции для обновления таблиц
 def update_clients_table():
