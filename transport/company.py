@@ -4,7 +4,7 @@ class TransportCompany:
         self.vehicles = []  # Список транспортных средств
         self.clients = []   # Список клиентов
 
-    def add_vehicle(self, vehicle):
+    def add_vehicle(self, vehicle): 
         self.vehicles.append(vehicle)
 
     def add_client(self, client):
