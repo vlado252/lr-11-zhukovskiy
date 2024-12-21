@@ -4,7 +4,7 @@ from .client import Client
 class Vehicle:
     def __init__(self, capacity):
         if isinstance(capacity, (int, float)) and capacity > 0:
-            self.vehicle_id = str(uuid.uuid4())
+            self.vehicle_id = str(uuid.uuid4()) 
             self.capacity = capacity
             self.current_load = 0
             self.clients_list = []
