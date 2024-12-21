@@ -3,7 +3,7 @@ from transport import Client,Vehicle,TransportCompany,Ship,Truck
 def menu():
     company = TransportCompany("TransCo")
 
-    while True:
+    while True: 
       print("\nЧто вы хотите сделать?")
       print("1. Добавить клиента")
       print("2. Добавить транспортное средство")
